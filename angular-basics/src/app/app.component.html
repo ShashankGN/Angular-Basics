@@ -1,0 +1,50 @@
+<app-navbar></app-navbar>
+
+<hr>
+
+<h1>Root Component {{name}}</h1>
+<h1>This is from the app component</h1>
+<hr>
+
+<app-hello-world></app-hello-world>
+<hr>
+
+<products-list></products-list>
+
+{{2+2}}
+<br>
+<h3>{{greet()}}</h3>
+<br>
+<input type="text" disabled={{isDisabled}} value={{name}}>
+<!-- interpolation -->
+<input type="text" [value]="name" [disabled]="isDisabled">
+<!-- property binding -->
+<img [src]="imagepath" alt="" srcset="">
+<h3>Sum is {{sum()}}</h3>
+<h3 [innerText]="sum()"></h3>
+
+<hr>
+
+<app-class-binding></app-class-binding>
+<hr>
+
+<app-html-js-binding></app-html-js-binding>
+<hr>
+
+
+<app-structural-directives></app-structural-directives>
+<hr>
+
+<app-parent></app-parent>
+<hr>
+
+<app-product-list></app-product-list>
+<hr>
+
+<app-adult></app-adult>
+<hr>
+
+<app-crud></app-crud>
+<hr>
+
+<router-outlet></router-outlet>

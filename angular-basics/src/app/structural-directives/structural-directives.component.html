@@ -1,0 +1,76 @@
+<p>structural-directives works!</p>
+
+<button (click)="action()">{{isShown?'Hide':'Show'}}</button>
+<div *ngIf="isShown; else otherCase">
+    <h3>The products are</h3>
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Soap</td>
+            <td>100/-</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Toothpaste</td>
+            <td>120/-</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>ToothBrush</td>
+            <td>50/-</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Detergent</td>
+            <td>150/-</td>
+        </tr>
+    </table>
+</div>
+<ng-template #otherCase>
+    <p>Click show to See the products</p>
+</ng-template>
+
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody *ngFor="let student of students">
+        <tr>
+            <td>{{student.id}}</td>
+            <td>{{student.firstName}}</td>
+            <td>{{student.lastName}}</td>
+            <td>{{student.age}}</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<div *ngFor="let item of items">
+    <p> {{item}} </p>
+</div>
+
+<div *ngFor="let item of items;let i=index">
+    <p> {{item}} {{i}} </p>
+</div>
+
+<div [ngSwitch]="'one'"> 
+    <div *ngSwitchCase="'one'">One is Displayed</div>   
+    <div *ngSwitchCase="'two'">Two is Displayed</div>   
+    <div *ngSwitchDefault>Default Option is Displayed</div>   
+</div> 
+
+<div [ngSwitch]="'three'"> 
+    <div *ngSwitchCase="'one'">One is Displayed</div>   
+    <div *ngSwitchCase="'two'">Two is Displayed</div>   
+    <div *ngSwitchDefault>Default Option is Displayed</div>   
+</div> 

@@ -1,0 +1,18 @@
+<p>html-js-binding works!</p>
+<button (click)="greet()">greet</button>
+<button (click)="greetEvent($event)">greetEvent</button>
+<div>
+    <input #fname type="text">
+    <input #lname type="text">
+</div>
+<button (click)="getFullName(fname,lname)">getFullName</button>
+{{fname.value+" "+lname.value}}
+<h2>The fullname is {{fullname}}</h2>
+
+
+
+<div>
+    <button (click)="action()">{{actiondata}}</button>
+    <button (click)="isShown=!isShown">{{isShown?'Hide':'Show'}}</button>
+</div>
+

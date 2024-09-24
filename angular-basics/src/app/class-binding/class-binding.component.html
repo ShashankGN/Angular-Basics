@@ -1,0 +1,21 @@
+<h2>Class Binding Demo</h2>
+
+
+<h2 class="text-success">UST Training</h2>
+<h2 [class]="successClass">UST Training</h2>
+<h2 [class]="successClass" class="text-special">UST Training</h2>
+<h2 [class]="successClass" class="text-danger" class="text-special">UST Training</h2>
+<h2 [class.text-danger]="hasError">UST Training</h2>
+<h2 [class.text-danger]="!hasError">UST Training</h2>
+<h2 [ngClass]="messageClasses">UST Training</h2>
+
+<hr>
+
+<h2 [style.color]="colour">This is Style Binding</h2>
+<h2 [style.text-decoration-line]="textdecoration">This is Style Binding</h2>
+<h2 [style.background-color]="colour">This is Style Binding</h2>
+<img [src]="imagepath" [style.width]="width">
+<img [src]="imagepath" [style.width.%]="widthh">
+<h2 [style]="styleExpression">This is Style Binding</h2>
+<h2 [style]="styleExpressionList">This is Style Binding</h2>
+

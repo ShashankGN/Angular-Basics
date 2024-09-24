@@ -1,0 +1,20 @@
+<!-- <p>pop-up works!</p> -->
+
+<div *ngIf="popupShow" class="overlay">
+    <div class="popup">
+      <button class="close" (click)="OnCloseButtonClicked()">X</button>
+      <form>
+        <div>
+          <label for="Product Name">Product Name:</label>
+          <input type="text"  name="username" required [(ngModel)]="Name">
+        </div>
+        <div>
+          <label for="Price">Price:</label>
+          <input type="number" name="password" required [(ngModel)]="Price">
+        </div>
+        <button type="submit" class="submit" (click)="OnSubmitButtonClicked()">Submit</button>
+      </form>
+    </div>
+  </div>
+  
+ 

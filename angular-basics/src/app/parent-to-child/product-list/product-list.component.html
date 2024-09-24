@@ -1,0 +1,37 @@
+<p>product-list works!</p>
+<table>
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>price</th>
+        </tr>
+    </thead>
+    <tr *ngFor="let product of productList">
+        <td>
+            <app-product [eachProduct]="product"></app-product>
+        </td>
+        
+    </tr>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>price</th>
+        </tr>
+    </thead>
+    <tr *ngFor="let product of productList">
+        <td>
+            <app-product [eachProductId]="product.id"></app-product>
+        </td>
+        <td>
+            <app-product [eachProductName]="product.name"></app-product>
+        </td>
+        <td>
+            <app-product [eachProductPrice]="product.price"></app-product>
+        </td>  
+    </tr>
+</table>

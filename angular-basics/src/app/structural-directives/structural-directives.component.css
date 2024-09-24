@@ -1,0 +1,46 @@
+th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rebeccapurple;
+}
+th{
+    height: 50px;
+    background-color: #00603d;
+    color: white;
+}
+
+td{
+    height: 30px;
+}
+tr:hover{
+    color: red;
+}
+tr:nth-child(even) 
+{
+    background-color: #179a29;
+}
+tr:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+table{
+    width: 50%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: rgb(3, 152, 102);
+
+}
+
+
+h3{
+    background-color: brown;
+    color: bisque;
+    text-align: center;
+}
+

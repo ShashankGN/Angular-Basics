@@ -1,0 +1,19 @@
+<!-- <p>data works!</p> -->
+
+<div>
+    <input type="text" #myName>
+    <input type="number" #myPrice>
+    <button (click)="onAddButtonClicked(myName,myPrice)">Add</button>
+</div>
+
+<div class="body">
+    <div *ngFor="let product of data">
+        <app-card [eachProduct]="product" (OnDeleteButtonClickedEvent)="DeleteProduct($event)"  (OnUpdateButtonClickedEvent)="UpdateProduct($event)"  ></app-card>
+    </div>
+</div>
+
+<div>
+    <app-pop-up [popupId]="updateId" [popupShow]="popupShow" (OnCloseButtonClickedEvent)="Changeflag($event)" (OnSubmitButtonClickedEvent)="UpdateData($event)"></app-pop-up>
+</div>
+
+

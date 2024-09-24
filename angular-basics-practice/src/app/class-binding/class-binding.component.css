@@ -1,0 +1,26 @@
+h1{
+    background-color: aqua;
+    color: darkblue;
+}
+
+.text-ok{
+    color: darkgreen;
+    background-color: lightgreen;
+}
+
+.text-all{
+    background-color:blue;
+    color:white;
+    text-decoration: underline;
+}
+
+.text-error{
+    background-color: lightcoral;
+    color: red;
+}
+
+.text-special{
+    font-style: italic;
+    background-color: greenyellow;
+    color: darkolivegreen;
+}

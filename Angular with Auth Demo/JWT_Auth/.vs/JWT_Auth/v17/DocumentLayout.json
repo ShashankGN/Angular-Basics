@@ -1,0 +1,112 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Angular-Projects\\Angular with Auth Demo\\JWT_Auth\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{42B420FB-4FA3-414C-A747-37BDD50C1A5A}|JWT_Auth\\JWT_Auth.csproj|d:\\angular-projects\\angular with auth demo\\jwt_auth\\jwt_auth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42B420FB-4FA3-414C-A747-37BDD50C1A5A}|JWT_Auth\\JWT_Auth.csproj|solutionrelative:jwt_auth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42B420FB-4FA3-414C-A747-37BDD50C1A5A}|JWT_Auth\\JWT_Auth.csproj|d:\\angular-projects\\angular with auth demo\\jwt_auth\\jwt_auth\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42B420FB-4FA3-414C-A747-37BDD50C1A5A}|JWT_Auth\\JWT_Auth.csproj|solutionrelative:jwt_auth\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42B420FB-4FA3-414C-A747-37BDD50C1A5A}|JWT_Auth\\JWT_Auth.csproj|d:\\angular-projects\\angular with auth demo\\jwt_auth\\jwt_auth\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42B420FB-4FA3-414C-A747-37BDD50C1A5A}|JWT_Auth\\JWT_Auth.csproj|solutionrelative:jwt_auth\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42B420FB-4FA3-414C-A747-37BDD50C1A5A}|JWT_Auth\\JWT_Auth.csproj|d:\\angular-projects\\angular with auth demo\\jwt_auth\\jwt_auth\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{42B420FB-4FA3-414C-A747-37BDD50C1A5A}|JWT_Auth\\JWT_Auth.csproj|solutionrelative:jwt_auth\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42B420FB-4FA3-414C-A747-37BDD50C1A5A}|JWT_Auth\\JWT_Auth.csproj|d:\\angular-projects\\angular with auth demo\\jwt_auth\\jwt_auth\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42B420FB-4FA3-414C-A747-37BDD50C1A5A}|JWT_Auth\\JWT_Auth.csproj|solutionrelative:jwt_auth\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Angular-Projects\\Angular with Auth Demo\\JWT_Auth\\JWT_Auth\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "JWT_Auth\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Angular-Projects\\Angular with Auth Demo\\JWT_Auth\\JWT_Auth\\Properties\\launchSettings.json",
+              "RelativeToolTip": "JWT_Auth\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-02T14:23:27.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Angular-Projects\\Angular with Auth Demo\\JWT_Auth\\JWT_Auth\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "JWT_Auth\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Angular-Projects\\Angular with Auth Demo\\JWT_Auth\\JWT_Auth\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "JWT_Auth\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwC4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T14:10:57.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\Angular-Projects\\Angular with Auth Demo\\JWT_Auth\\JWT_Auth\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "JWT_Auth\\Models\\LoginModel.cs",
+              "ToolTip": "D:\\Angular-Projects\\Angular with Auth Demo\\JWT_Auth\\JWT_Auth\\Models\\LoginModel.cs",
+              "RelativeToolTip": "JWT_Auth\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T14:10:03.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "D:\\Angular-Projects\\Angular with Auth Demo\\JWT_Auth\\JWT_Auth\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "JWT_Auth\\Controllers\\CustomersController.cs",
+              "ToolTip": "D:\\Angular-Projects\\Angular with Auth Demo\\JWT_Auth\\JWT_Auth\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "JWT_Auth\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T13:54:41.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Angular-Projects\\Angular with Auth Demo\\JWT_Auth\\JWT_Auth\\Program.cs",
+              "RelativeDocumentMoniker": "JWT_Auth\\Program.cs",
+              "ToolTip": "D:\\Angular-Projects\\Angular with Auth Demo\\JWT_Auth\\JWT_Auth\\Program.cs",
+              "RelativeToolTip": "JWT_Auth\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T13:40:24.868Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

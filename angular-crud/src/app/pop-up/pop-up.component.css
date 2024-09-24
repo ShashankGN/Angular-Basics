@@ -1,0 +1,32 @@
+
+  .popup {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .popup h2 {
+    margin-top: 0;
+  }
+  .popup button.close {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    float: right;
+  }
+  .popup button.submit {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .popup button.submit:hover {
+    background: #0056b3;
+  }
+  .overlay.show {
+    display: flex;
+  }
